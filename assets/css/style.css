@@ -1,0 +1,48 @@
+body {
+    background-color: #f7cd75;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+}
+
+.payment-section {
+    background-color: #f2f2f2;
+    font-size: 120%;
+    padding: 20px;
+}
+
+.add-wallets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.credit-card {
+    background-color: #ffffff;
+    width: 250px;
+    font-size: 90%;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin: 20px 0 20px 20px;
+    height: 40px;
+}
+
+.card,
+.number,
+.validation {
+    font-size: 90%;
+}
+
+.number {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.validation {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
